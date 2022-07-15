@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viawers from './Viawers'
+import Movies from './Movies'
  
 function Home() {
    
@@ -9,6 +10,7 @@ function Home() {
         <Container>
             <ImgSlider />
             <Viawers/>
+            <Movies/>
         </Container>
     )
 }
