@@ -41,13 +41,14 @@ function Header() {
 export default Header
 
 const Nav = styled.nav`
+    overflow-x: hidden;
     height: 70px;
     background: #090b13;
     display: flex;
 `
 
 const Logo = styled.img`
-margin-left: 18px;
+    margin-left: 18px;
     width: 80px;
 `
 const NavMenu = styled.div`
