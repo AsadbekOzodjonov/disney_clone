@@ -5,10 +5,10 @@ function Detial() {
     return (
         <Container>
             <Background>
-                <img src="/images/slider-badag.jpg" alt="" />
+                <img src="/images/hello1.jpg" alt="" />
             </Background>
             <ImageTitle>
-                <img src="/images/viewers-disney.png" alt="" />
+                <img src="/images/hello2.png" alt="" />
             </ImageTitle>
             <Controls>
                 <PlayButton>
@@ -65,6 +65,7 @@ const ImageTitle = styled.div`
     min-height:  170px;
     width: 35vw;
     min-width: 200px;
+    margin-top: 60px;
 
     
     img {
@@ -141,4 +142,5 @@ line-hright: 1.4;
 font-size: 20px;
 margin-top: 16px;
 color: rgb(249, 249, 249);
+max-width: 760px;
 `
